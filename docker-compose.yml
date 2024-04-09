@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  golang:
+    image: rohan150699/golang:latest
+    ports:
+      - "8080:8080"
+
+  nextjs:
+    image: rohan150699/nextjs:latest
+    ports:
+      - "3000:3000"
+
+  php:
+    image: eshop/ordering-api
+    ports:
+      - "4000:4000"
