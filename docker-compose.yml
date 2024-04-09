@@ -12,6 +12,6 @@ services:
       - "3000:3000"
 
   php:
-    image: eshop/ordering-api
+    image: rohan150699/php:latest
     ports:
       - "4000:4000"
